@@ -7,6 +7,8 @@
   padding: 0;
 }
 
+
+
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -176,6 +178,12 @@ section {
   height: 80vh;
 }
 
+ul{
+  padding: 1%;
+}
+li{
+  padding: 1%;
+}
 .section__pic-container {
   display: flex;
   height: 400px;

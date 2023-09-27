@@ -5,6 +5,27 @@ function toggleMenu() {
   icon.classList.toggle("open");
 }
 
+
+
+const toggle = document.getElementById('toggleDark');
+const body = document.querySelector('body');
+
+toggle.addEventListener('click', function(){
+    this.classList.toggle('bi-moon');
+    if(this.classList.toggle('bi-brightness-high-fill')){
+        body.style.background = 'skyblue';
+        body.style.color = 'black';
+        body.style.transition = '2s';
+    }else{
+        body.style.background = '#181A1B';
+        body.style.color = 'white';
+        body.style.transition = '2s';
+    }
+});
+
+
+
+
 		function copy(copyId){
 			var $inp=$("<input>");
 			$("body").append($inp);

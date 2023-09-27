@@ -11,6 +11,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: skyblue;
 }
 
 html {
@@ -43,9 +44,9 @@ html {
 	display: none;
 }
 
-p {
+/* p {
   color: rgb(43, 40, 40);
-}
+} */
 
 
 
@@ -74,7 +75,7 @@ nav {
 }
 
 a {
-  color: black;
+  color: green;
   text-decoration: none;
   text-decoration-color: white;
 }
@@ -439,13 +440,7 @@ article .icon {
   padding: 0.5rem;
 }
 
-.contact-info-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-  margin: 1rem;
-}
+
 
 .contact-info-container p {
   font-size: larger;
@@ -459,7 +454,6 @@ article .icon {
   height: 2.5rem;
 }
 
-/* FOOTER SECTION */
 
 footer {
   height: 26vh;

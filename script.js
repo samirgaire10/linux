@@ -78,4 +78,62 @@ function toggleMenu() {
       $("#copyButton20").click(function(){
 				copy('#text20');
 			});
+	   $("#copyButton10").click(function(){
+				copy('#text10');
+			});
+
+
+      $("#copyButton11").click(function(){
+				copy('#text11');
+			});
+			$("#copyButton12").click(function(){
+				copy('#text12');
+			});
+      $("#copyButton13").click(function(){
+				copy('#text13');
+			});
+			$("#copyButton14").click(function(){
+				copy('#text14');
+			});
+      $("#copyButton15").click(function(){
+				copy('#text15');
+			});
+			$("#copyButton16").click(function(){
+				copy('#text16');
+			});
+      $("#copyButton17").click(function(){
+				copy('#text17');
+			});
+			$("#copyButton18").click(function(){
+				copy('#text18');
+			});
+			$("#copyButton10").click(function(){
+				copy('#text10');
+			});
+
+
+      		$("#copyButton21").click(function(){
+				copy('#text21');
+			});
+			$("#copyButton22").click(function(){
+				copy('#text22');
+			});
+            $("#copyButton23").click(function(){
+				copy('#text23');
+			});
+			$("#copyButton24").click(function(){
+				copy('#text24');
+			});
+      		$("#copyButton25").click(function(){
+				copy('#text25');
+			});
+			$("#copyButton26").click(function(){
+				copy('#text26');
+			});
+     		$("#copyButton27").click(function(){
+				copy('#text27');
+			});
+			$("#copyButton28").click(function(){
+				copy('#text28');
+			});
 		});
